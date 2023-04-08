@@ -1,0 +1,23 @@
+body{
+    background-image: url("bg.jpg");
+}
+h1{
+    font-size: 30px !important;
+}
+.btn-primary:hover{
+    background-color:cadetblue;
+}
+canvas{
+    border-radius: 20px;
+    animation-name: disco;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes disco{
+    from{
+        box-shadow: 2px 2px 30px cornflowerblue;
+    }
+    to{
+        box-shadow: 2px 2px 30px palevioletred;
+    }
+}
